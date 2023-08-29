@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackendApp.Interface
 {
-    internal interface IOS
+    public interface IOS
     {
         public string UserFullName { get; set; }
 

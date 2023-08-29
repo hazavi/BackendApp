@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BackendApp.Factory
 {
-    internal class OSFactory
+    public class OSFactory
     {
         public IOS Identity(string minUserFolder)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BackendApp.Types
 {
-    internal class Linux : OS, IOS
+    public class Linux : OS, IOS
     {
         public Linux(string userFullName) : base(userFullName) 
         {
